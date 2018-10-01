@@ -35,7 +35,7 @@ final class TestIndex extends TestCase
     {
         $this.assertEquals(
             5,
-            Index::testSum(2, 3)
+            Index::sum(2, 3)
         );
     }
 }

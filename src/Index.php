@@ -32,7 +32,7 @@ namespace test\lib
          * 
          * @return void
          */
-        public function testSum($arg1, $arg2)
+        public function sum($arg1, $arg2)
         {
             return $arg1 + $arg2;
         }
