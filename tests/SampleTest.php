@@ -37,6 +37,7 @@ class SampleTest extends \PHPUnit_Framework_TestCase
     public function testFunction()
     {
         $target = new \App\Calculator();
+        $aaa = "aa";
         $result = $target->sum(1, 2);
         $this->assertEquals(
             3,
