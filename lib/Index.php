@@ -11,7 +11,7 @@
  * @link     www.www.www
  */
 
-namespace test
+namespace test\lib
 {
     /**
      * Will be used for test Travis CI
