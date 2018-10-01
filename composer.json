@@ -1,4 +1,6 @@
 {
+    "name": "TestCI",
+    "description": "Continuous Integration test",
     "config": {
         "platform": {
             "php": "5.5"
