@@ -2,7 +2,7 @@
 /**
  * CI test
  *
- * PHP version 5.6
+ * PHP version 5.4
  *
  * @category Description
  * @package  Category
