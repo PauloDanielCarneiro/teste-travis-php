@@ -1,41 +1,39 @@
 <?php
-
 /**
  * This file will test the Index file in src folder
- * 
+ *
  * PHP version 5.4
- * 
+ *
  * @category Description
  * @package  Category
  * @author   Name <email@email.com>
  * @license  MIT www.www.www
  * @link     http://url.com
  */
+namespace App;
 
-use PHPUnit\Framework\TestCase;
-use test\lib\Index;
 
 /**
  * This class controls all test cases who will be executed.
- * 
+ *
  * @category Description
  * @package  Category
  * @author   Name <email@email.com>
  * @license  MIT www.www.www
  * @link     http://url.com
  */
-final class TestIndex extends TestCase
+class Calculator
 {
     /**
-     * Verify if the sum is working as expected
+     * Undocumented function
      *
+     * @param [type] $arg1 aaa
+     * @param [type] $arg2 aaa
+     * 
      * @return void
      */
-    public function testSum()
+    public function sum($arg1, $arg2)
     {
-        $this.assertEquals(
-            5,
-            Index::sum(2, 3)
-        );
+        return $arg1 + $arg2;
     }
 }
